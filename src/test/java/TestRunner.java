@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         glue = {"stepDefinition", "WebDriver"},
 
         // Specify tags to be executed
-        tags = {"@smoke"},
+        tags = {"@unit1"},
 
         // readable console logs
         monochrome = true,

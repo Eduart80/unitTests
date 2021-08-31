@@ -1,6 +1,6 @@
 
 Feature:
-  @smoke
+  @unit1
   Scenario: Test web Application
     When open Zedy3d i get the title 'Home'
     And click on the contact button
