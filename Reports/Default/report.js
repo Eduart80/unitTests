@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6018088600,
+  "duration": 5113664400,
   "status": "passed"
 });
 formatter.scenario({
@@ -64,14 +64,14 @@ formatter.match({
   "location": "SDLanding.mut(String)"
 });
 formatter.result({
-  "duration": 410076800,
+  "duration": 292413100,
   "status": "passed"
 });
 formatter.match({
   "location": "SDLanding.searchWeb()"
 });
 formatter.result({
-  "duration": 780356700,
+  "duration": 598411900,
   "status": "passed"
 });
 formatter.match({
@@ -84,7 +84,7 @@ formatter.match({
   "location": "SDLanding.fill(String)"
 });
 formatter.result({
-  "duration": 125097900,
+  "duration": 143266100,
   "status": "passed"
 });
 formatter.match({
@@ -97,25 +97,24 @@ formatter.match({
   "location": "SDLanding.fillEmail(String)"
 });
 formatter.result({
-  "duration": 114115800,
-  "status": "passed"
+  "duration": 75257600,
+  "error_message": "java.lang.AssertionError: expected [ANA@gmail.com] but found [By.id: 1052425816]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:617)\r\n\tat Page.LandingPAge.landingPage.fillEmail(landingPage.java:41)\r\n\tat stepDefinition.SDLanding.fillEmail(SDLanding.java:28)\r\n\tat ✽.Then fill email \u0027john@example.com\u0027(test22.feature:8)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "SDLanding.homePage()"
 });
 formatter.result({
-  "duration": 604355200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SDLanding.mouseOver()"
 });
 formatter.result({
-  "duration": 888257600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 739180000,
+  "duration": 649431400,
   "status": "passed"
 });
 });
