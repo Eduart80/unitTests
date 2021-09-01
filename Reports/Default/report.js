@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 7976619800,
+  "duration": 6018088600,
   "status": "passed"
 });
 formatter.scenario({
@@ -20,7 +20,7 @@ formatter.scenario({
   "tags": [
     {
       "line": 3,
-      "name": "@smoke"
+      "name": "@unit1"
     }
   ]
 });
@@ -44,6 +44,16 @@ formatter.step({
   "name": "fill email \u0027john@example.com\u0027",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 9,
+  "name": "go back to main page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "mouse over Other presentations",
+  "keyword": "Then "
+});
 formatter.match({
   "arguments": [
     {
@@ -54,14 +64,14 @@ formatter.match({
   "location": "SDLanding.mut(String)"
 });
 formatter.result({
-  "duration": 607689000,
+  "duration": 410076800,
   "status": "passed"
 });
 formatter.match({
   "location": "SDLanding.searchWeb()"
 });
 formatter.result({
-  "duration": 1332061100,
+  "duration": 780356700,
   "status": "passed"
 });
 formatter.match({
@@ -74,7 +84,7 @@ formatter.match({
   "location": "SDLanding.fill(String)"
 });
 formatter.result({
-  "duration": 257872000,
+  "duration": 125097900,
   "status": "passed"
 });
 formatter.match({
@@ -87,11 +97,25 @@ formatter.match({
   "location": "SDLanding.fillEmail(String)"
 });
 formatter.result({
-  "duration": 156819099,
+  "duration": 114115800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SDLanding.homePage()"
+});
+formatter.result({
+  "duration": 604355200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SDLanding.mouseOver()"
+});
+formatter.result({
+  "duration": 888257600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 755410899,
+  "duration": 739180000,
   "status": "passed"
 });
 });

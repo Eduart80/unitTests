@@ -5,6 +5,8 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
+import java.io.IOException;
+
 public class SDLanding {
         landingPage lp = new landingPage();
 
@@ -24,4 +26,16 @@ public class SDLanding {
         public void fillEmail(String name){
                 lp.fillEmail(name);
         }
+        @And("^go back to main page$")
+        public void homePage(){
+                lp.homePage();
+        }
+        @Then("^mouse over Other presentations$")
+        public void mouseOver() throws IOException {
+                lp.mouseOv();
+        }
+
+
+
+
 }

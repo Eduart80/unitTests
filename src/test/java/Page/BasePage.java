@@ -256,4 +256,7 @@ public class BasePage {
         double a= Double.parseDouble(number2.trim());
         return a;
     }
+    public void screenshot(){
+        //take screenshot code here
+    } 
 }
